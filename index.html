@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iconify/3.1.1/iconify.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>"Your Site"</title>
+</head>
+<body>
+    <main>
+         <div class="bg-[#E89011]">
+            <!-----------NAVBAR--------->
+         <section id="hero">
+            <header class="text-slate-700 container relative mx-auto flex flex-col overflow-hidden px-4 py-4 lg:flex-row lg:items-center">
+              <a href="#" class="flex items-center whitespace-nowrap text-3xl font-bold text-white"><h3>"Your Site"</h3></a>
+              <input type="checkbox" class="peer hidden" id="navbar-open" />
+              <label class="absolute top-5 right-5 cursor-pointer lg:hidden" for="navbar-open">
+                <svg class="h-7 w-7" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+              </label>
+              <nav aria-label="Header Navigation" class="peer-checked:pt-8 peer-checked:max-h-80 flex max-h-0 w-full flex-col items-center overflow-hidden transition-all lg:ml-24 lg:max-h-full lg:flex-row">
+                <ul class="flex w-full flex-col items-center space-y-2 lg:flex-row lg:justify-center lg:space-y-0 font-medium">
+                  <li class="lg:mr-12"> <a href="#home" class="inline-flex whitespace-nowrap border-b-2 border-transparent font-medium text-white transition-all duration-300 ease-in-out hover:border-b-[#fff]">Home</a>
+                  </li>
+      
+                  <li class="lg:mr-12"> <a href="#about" class="inline-flex whitespace-nowrap border-b-2 border-transparent font-medium text-white transition-all duration-300 ease-in-out hover:border-b-[#fff]">About Us</a>
+                  </li>
+      
+                  <li class="lg:mr-12"> <a href="#services" class="inline-flex whitespace-nowrap border-b-2 border-transparent font-medium text-white transition-all duration-300 ease-in-out hover:border-b-[#fff]">Services</a>
+                  </li>
+                </ul>
+                <hr class="mt-4 w-full lg:hidden" />
+                <div class="my-4 flex items-center space-x-6 space-y-2 lg:my-0 lg:ml-auto lg:space-x-8 lg:space-y-0">
+                  <a href="#" title="" class="whitespace-nowrap rounded font-medium transition-all duration-200 focus:outline-none focus:ring-1 focus:ring-blue-700 focus:ring-offset-2 text-white"> Log in </a>
+      
+                  <a href="#" title="" class="whitespace-nowrap rounded-full bg-[#fff] px-5 py-3 font-medium text-[#E89011] transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-blue-700 focus:ring-offset-2 hover:bg-orange-200">Get Started</a>
+                </div>
+              </nav>
+            </header>
+          </section>
+
+        <!-------HERO-SECTION------->
+        <section class="text-white body-font">
+            <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+                <div
+                    class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+                    <h1 class="title-font sm:text-4xl text-3xl mb-4 font-extrabold text-white">Welcome To
+                        "Your Site".</h1>
+                    <p class="mb-8 leading-relaxed text-white">website.vom is a registered telecommunication company that
+                        provide voice or data transmission services, such as; Mobile Data, Cable Sub, Electric Bill, Airtime (VTU).....</p>
+                    <div class="flex lg:flex-row md:flex-col">
+                        <a href="#" title=""
+                            class="whitespace-nowrap rounded-md bg-white px-7 py-3 font-medium text-[#E89011] transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-blue-700 focus:ring-offset-2 hover:bg-blue-900 me-2">Login
+                            </a>
+
+                        <a href="#" title=""
+                            class="whitespace-nowrap rounded-md bg-white px-5 py-3 font-medium text-[#E89011] transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-blue-700 focus:ring-offset-2 hover:bg-blue-900">Register
+                            </a>
+                    </div>
+                </div>
+                <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+                    <img class="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600">
+                </div>
+            </div>
+        </section>
+         </div>
+
+         <!------------SERVICES----------->
+         <section>
+            <div class="max-w-2xl mx-auto text-center">
+                <h2 class="sm:text-3xl text-2xl font-medium title-font mt-12 text-[#E89011]">Services We Provide!</h2>
+                    <p class="lg:w-2/3 mx-auto leading-relaxed text-base text-[#32236F]">We offer instant recharge of Airtime, Databundle, CableTV (DStv, GOtv & Startimes), Electricity Bill Payment and Airtime to Cash.</p>
+                <div class="mt-8">
+                    <a href="#" target="_blank" class="block">
+                       <img src="/Assets/service-div.png" alt="">
+                    </a>
+                </div>
+            </div>
+         </section>
+
+          <!-- ------------HOW-IT-WORKS------------ -->
+          <section class="text-white body-font">
+            <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+                <div
+                    class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+                    <h2 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-[#32236F]">Working with Few Process it's Simple.</h2>
+                    <p class="mb-8 leading-relaxed text-[#32236F]">
+                     <strong>Sign in</strong> <br> Firstly, you need to sign in to your account using your registered username & password. <br><br>
+                     <strong>Fund Wallet</strong> <br>You need to fund your wallet by using any of our payment gateways and your wallet
+                        gets credited instantly. <br><br>
+                     <strong>Place Order</strong> <br>You can now proceed to place an order on any of our services at sweet rates.<br><br>
+                     <strong>Instant Delivery</strong> <br>Our airtime top-up and data purchase are automated and get delivered to you almost
+                        instantly.  
+                    </p>
+                </div>
+                
+                <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+                    <img class="object-cover object-center rounded" alt="hero" src="/Assets/section-img.png">
+                </div>
+            </div>
+        </section>
+
+
+        <!-----------------ABOUT-"Your Site"------------>
+        <section class="text-white body-font">
+            <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+                <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+                    <img class="object-cover object-center rounded" alt="hero" src="/Assets/section-img.png">
+                </div>
+
+                <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+                    <h2 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-[#32236F]">About <span class="text-[#E89011]">"Your Site"</span></h2>
+                    <p class="mb-8 leading-relaxed text-[#32236F]">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda fuga a sunt sit alias quae debitis nihil nesciunt est voluptas, recusandae provident molestias praesentium earum, facilis perspiciatis accusamus officiis rem!
+                        <div class="flex justify-between space-x-10">
+                            <div class="text-[#32236F] py-2 px-6 rounded-lg shadow-lg shadow-[#EDE9FE]-500/50 text-2xl font-extrabold">
+                                <p >0M+</p> <br>
+                                <p>Downloads</p>
+                            </div>
+                            <div class="text-[#32236F] py-2 px-6 rounded-lg shadow-lg shadow-[#EDE9FE]-500/50 text-2xl font-extrabold">
+                                <p>0M+</p> <br>
+                                <p>Followers</p>
+                            </div>
+                        </div>
+
+                        <div class="flex justify-between space-x-12 mt-4">
+                            <div class="text-[#32236F] py-2 px-8 rounded-lg shadow-lg shadow-[#EDE9FE]-500/50 text-2xl font-extrabold">
+                                <p >1500+</p> <br>
+                                <p>Reviews</p>
+                            </div>
+                            <div class="text-[#32236F] py-2 px-5 rounded-lg shadow-lg shadow-[#EDE9FE]-500/50 text-2xl font-extrabold">
+                                <p>0+</p> <br>
+                                <p>Countries</p>
+                            </div>
+                        </div>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+
+         <!-----------TESTIMONIALS-------------->
+         <section class="text-white body-font" id="testimony">
+            <div class="container px-5 py-24 mx-auto">
+                <h2 class="sm:text-3xl text-2xl text-center font-medium title-font mb-4 text-[#32236F]">What Our <span class="text-[#E89011]">Customers Say</span></h2>
+              <div class="flex flex-wrap -m-4">
+                <div class="p-4 md:w-1/2 w-full">
+                  <div class="h-full bg-gray-100 p-8 rounded">
+                    <p class="leading-relaxed mb-6 text-[#32236F]">“I love the quick response to issues. We might justget along well. So far so good. There's no star
+                        here but I give ⭐⭐⭐.”</p>
+                    <a class="inline-flex items-center">
+                      <img alt="testimonial" src="https://icons8.com/icon/23309/person" class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center">
+                      <span class="flex-grow flex flex-col pl-4">
+                        <span class="title-font font-medium text-[#32236F]">Benjamin Ola </span>
+                        <span class="text-gray-500 text-sm">STUDENT</span>
+                      </span>
+                    </a>
+                  </div>
+                </div>
+                <div class="p-4 md:w-1/2 w-full">
+                  <div class="h-full bg-gray-100 p-8 rounded">
+                    <p class="leading-relaxed mb-6 text-[#32236F]">“These site is great... All thanks to SATEEK DATA.I can really say that since I joined this site I have
+                        been earning more than before.. Kudos To SATEEK DATA... Kudus to the developer..”</p>
+                    <a class="inline-flex items-center">
+                      <img alt="testimonial" src="https://icons8.com/icon/108322/person-female-skin-type-7" class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center">
+                      <span class="flex-grow flex flex-col pl-4">
+                        <span class="title-font font-medium text-[#32236F]">Adejoke Taiwo</span>
+                        <span class="text-gray-500 text-sm">GRAPHIC DESIGNER</span>
+                      </span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+
+           <!-- ------------PRICING------------ -->
+           <section class="text-white body-font overflow-hidden" id="pricing">
+            <div class="container px-5 py-24 mx-auto">
+              <div class="flex flex-col text-center w-full mb-20">
+                <h3 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-[#32236F]">Affordable Data Plans Price.</h3>
+              </div>
+              <div class="flex flex-wrap -m-4">
+                <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
+                  <div class="h-full p-6 rounded-lg bg-red-500 flex flex-col   items-center justify-center overflow-hidden">
+                    <img src="/Assets/airtel.png" alt="">
+                    <p class="flex items-center text-white mb-2">
+                      100.0MB &#8210; ₦27 &#8210; 7 days(weekly)
+                    </p>
+                    <p class="flex items-center text-white mb-2">
+                      300.0MB &#8210; ₦65 &#8210; 7 days(weekly)
+                    </p>
+                    <p class="flex items-center text-white mb-2">
+                      500.0MB &#8210; ₦110 &#8210; 7 days(weekly)
+                    </p>
+                    <p class="flex items-center text-white mb-2">
+                      1GB &#8210; ₦220 &#8210; 7 days(weekly)
+                    </p>
+                    <p class="flex items-center text-white mb-2">
+                      1.2GB &#8210; ₦440 &#8210; 7 days(weekly)
+                    </p>
+                    <p class="flex items-center text-white mb-2">
+                      1.5GB &#8210; ₦900 &#8210; 7 days(weekly)
+                    </p>
+                    <p class="flex items-center text-white mb-2">
+                      3BG &#8210; ₦1080 &#8210; 7 days(weekly)
+                    </p>
+                    <p class="flex items-center text-white mb-2">
+                      4.5GB &#8210; ₦1100 &#8210; 7 days(weekly)
+                    </p>
+                    <p class="flex items-center text-white mb-2">
+                      5GB &#8210; ₦1800 &#8210; 7 days(weekly)
+                    </p>
+                    <button class="flex items-center mt-auto text-white justify-center bg-gray-400 border-0 py-2 px-4 w-full focus:outline-none rounded">Airtel Data
+                    </button>
+                  </div>
+                </div>
+                <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
+                  <div class="h-full p-6 rounded-lg flex flex-col items-center justify-center overflow-hidden bg-green-500 ">
+                    <img src="/Assets/glo.png" alt="">
+                    <p class="flex items-center text-white mb-2">
+                      100.0MB &#8210; ₦27 &#8210; 7 days(weekly)
+                    </p>
+                    <p class="flex items-center text-white mb-2">
+                      300.0MB &#8210; ₦65 &#8210; 7 days(weekly)
+                    </p>
+                    <p class="flex items-center text-white mb-2">
+                      500.0MB &#8210; ₦110 &#8210; 7 days(weekly)
+                    </p>
+                    <p class="flex items-center text-white mb-2">
+                      1GB &#8210; ₦220 &#8210; 7 days(weekly)
+                    </p>
+                    <p class="flex items-center text-white mb-2">
+                      1.2GB &#8210; ₦440 &#8210; 7 days(weekly)
+                    </p>
+                    <p class="flex items-center text-white mb-2">
+                      1.5GB &#8210; ₦900 &#8210; 7 days(weekly)
+                    </p>
+                    <p class="flex items-center text-white mb-2">
+                      3BG &#8210; ₦1080 &#8210; 7 days(weekly)
+                    </p>
+                    <p class="flex items-center text-white mb-2">
+                      4.5GB &#8210; ₦1100 &#8210; 7 days(weekly)
+                    </p>
+                    <p class="flex items-center text-white mb-2">
+                      5GB &#8210; ₦1800 &#8210; 7 days(weekly)
+                    </p>
+                    <button class="flex items-center mt-auto text-white justify-center bg-gray-400 border-0 py-2 px-4 w-full focus:outline-none rounded">Glo Data
+                    </button>
+                  </div>
+                </div>
+                <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
+                  <div class="h-full p-6 rounded-lg bg-yellow-500 flex flex-col   items-center justify-center overflow-hidden">
+                    <img src="/Assets/mtn.png" alt="">
+                    <p class="flex items-center text-white mb-2">
+                      100.0MB &#8210; ₦27 &#8210; 7 days(weekly)
+                    </p>
+                    <p class="flex items-center text-white mb-2">
+                      300.0MB &#8210; ₦65 &#8210; 7 days(weekly)
+                    </p>
+                    <p class="flex items-center text-white mb-2">
+                      500.0MB &#8210; ₦110 &#8210; 7 days(weekly)
+                    </p>
+                    <p class="flex items-center text-white mb-2">
+                      1GB &#8210; ₦220 &#8210; 7 days(weekly)
+                    </p>
+                    <p class="flex items-center text-white mb-2">
+                      1.2GB &#8210; ₦440 &#8210; 7 days(weekly)
+                    </p>
+                    <p class="flex items-center text-white mb-2">
+                      1.5GB &#8210; ₦900 &#8210; 7 days(weekly)
+                    </p>
+                    <p class="flex items-center text-white mb-2">
+                      3BG &#8210; ₦1080 &#8210; 7 days(weekly)
+                    </p>
+                    <p class="flex items-center text-white mb-2">
+                      4.5GB &#8210; ₦1100 &#8210; 7 days(weekly)
+                    </p>
+                    <p class="flex items-center text-white mb-2">
+                      5GB &#8210; ₦1800 &#8210; 7 days(weekly)
+                    </p>
+                    <button class="flex items-center mt-auto text-white justify-center bg-gray-400 border-0 py-2 px-4 w-full focus:outline-none rounded">Mtn Data
+                    </button>
+                  </div>
+                </div>
+                <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
+                  <div class="h-full p-6 rounded-lg bg-green-800 flex flex-col   items-center justify-center overflow-hidden">
+                    <img src="/Assets/9mobile.png" alt="">
+                    <p class="flex items-center text-white mb-2">
+                      100.0MB &#8210; ₦27 &#8210; 7 days(weekly)
+                    </p>
+                    <p class="flex items-center text-white mb-2">
+                      300.0MB &#8210; ₦65 &#8210; 7 days(weekly)
+                    </p>
+                    <p class="flex items-center text-white mb-2">
+                      500.0MB &#8210; ₦110 &#8210; 7 days(weekly)
+                    </p>
+                    <p class="flex items-center text-white mb-2">
+                      1GB &#8210; ₦220 &#8210; 7 days(weekly)
+                    </p>
+                    <p class="flex items-center text-white mb-2">
+                      1.2GB &#8210; ₦440 &#8210; 7 days(weekly)
+                    </p>
+                    <p class="flex items-center text-white mb-2">
+                      1.5GB &#8210; ₦900 &#8210; 7 days(weekly)
+                    </p>
+                    <p class="flex items-center text-white mb-2">
+                      3BG &#8210; ₦1080 &#8210; 7 days(weekly)
+                    </p>
+                    <p class="flex items-center text-white mb-2">
+                      4.5GB &#8210; ₦1100 &#8210; 7 days(weekly)
+                    </p>
+                    <p class="flex items-center text-white mb-2">
+                      5GB &#8210; ₦1800 &#8210; 7 days(weekly)
+                    </p>
+                    <button class="flex items-center mt-auto text-white justify-center bg-gray-400 border-0 py-2 px-4 w-full focus:outline-none rounded">9mobile Data
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+
+
+         <!-----------FAQs--------------->
+         <section>
+            <div class="relative mx-auto w-full py-16 px-5 sm:px-20 md:max-w-screen-lg lg:py-24">
+                <h2 class="sm:text-3xl text-2xl text-center font-medium title-font mb-4 text-[#32236F]">Frequently Asked Questions</h2>
+                <ul class="space-y-4">
+                  <li class="text-left">
+                    <label for="accordion-1" class="relative flex flex-col rounded-md border border-gray-100 shadow-md">
+                      <input class="peer hidden" type="checkbox" id="accordion-1" checked />
+                      <svg xmlns="http://www.w3.org/2000/svg" class="absolute right-0 top-4 ml-auto mr-5 h-4 text-gray-500 transition peer-checked:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+                      </svg>
+                      <div class="relative ml-4 cursor-pointer select-none items-center py-4 pr-12">
+                        <h3 class="text-base text-[#32236F] lg:text-base">How Can I Buy Data?</h3>
+                      </div>
+                      <div class="max-h-0 overflow-hidden transition-all duration-500 peer-checked:max-h-96">
+                        <div class="p-5">
+                          <p class="text-sm">Log in to your account If not click here to register After log in click fund my account Select Counpon payment ,NB:You can buy coupon code from our agents</p>
+                        </div>
+                      </div>
+                    </label>
+                  </li>
+              
+                  <li class="text-left">
+                    <label for="accordion-2" class="relative flex flex-col rounded-md border border-gray-100 shadow-md">
+                      <input class="peer hidden" type="checkbox" id="accordion-2" />
+                      <svg xmlns="http://www.w3.org/2000/svg" class="absolute right-0 top-4 ml-auto mr-5 h-4 text-gray-500 transition peer-checked:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+                      </svg>
+                      <div class="relative ml-4 cursor-pointer select-none items-center py-4 pr-12">
+                        <h3 class="text-base text-[#32236F] lg:text-base">What Are The Codes For Checking Data Balance?</h3>
+                      </div>
+                      <div class="max-h-0 overflow-hidden transition-all duration-500 peer-checked:max-h-96">
+                        <div class="p-5">
+                          <p class="text-sm">Lorem ipsum, <b>dolor sit amet</b> consectetur adipisicing elit. Adipisci eligendi, recusandae voluptatum distinctio facilis necessitatibus aperiam ut? Dolor mollitia modi aliquam, non sint at reprehenderit commodi dignissimos quo unde asperiores officiis quos laboriosam similique nihil.</p>
+                        </div>
+                      </div>
+                    </label>
+                  </li>
+              
+                  <li class="text-left">
+                    <label for="accordion-3" class="relative flex flex-col rounded-md border border-gray-100 shadow-md">
+                      <input class="peer hidden" type="checkbox" id="accordion-3" />
+                      <svg xmlns="http://www.w3.org/2000/svg" class="absolute right-0 top-4 ml-auto mr-5 h-4 text-gray-500 transition peer-checked:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+                      </svg>
+                      <div class="relative ml-4 cursor-pointer select-none items-center py-4 pr-12">
+                        <h3 class="text-base text-[#32236F] lg:text-base">How do I fund my wallet?</h3>
+                      </div>
+                      <div class="max-h-0 overflow-hidden transition-all duration-500 peer-checked:max-h-96">
+                        <div class="p-5">
+                          <p class="text-sm">Lorem ipsum, <b>dolor sit amet</b> consectetur adipisicing elit. Adipisci eligendi, recusandae voluptatum distinctio facilis necessitatibus aperiam ut? Dolor mollitia modi aliquam, non sint at reprehenderit commodi dignissimos quo unde asperiores officiis quos laboriosam similique nihil.</p>
+                        </div>
+                      </div>
+                    </label>
+                  </li>
+              
+                  <li class="text-left">
+                    <label for="accordion-4" class="relative flex flex-col rounded-md border border-gray-100 shadow-md">
+                      <input class="peer hidden" type="checkbox" id="accordion-4" />
+                      <svg xmlns="http://www.w3.org/2000/svg" class="absolute right-0 top-4 ml-auto mr-5 h-4 text-gray-500 transition peer-checked:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+                      </svg>
+                      <div class="relative ml-4 cursor-pointer select-none items-center py-4 pr-12">
+                        <h3 class="text-base text-[#32236F] lg:text-base">Can i send airtime?</h3>
+                      </div>
+                      <div class="max-h-0 overflow-hidden transition-all duration-500 peer-checked:max-h-96">
+                        <div class="p-5">
+                          <p class="text-sm">Lorem ipsum, <b>dolor sit amet</b> consectetur adipisicing elit. Adipisci eligendi, recusandae voluptatum distinctio facilis necessitatibus aperiam ut? Dolor mollitia modi aliquam, non sint at reprehenderit commodi dignissimos quo unde asperiores officiis quos laboriosam similique nihil.</p>
+                        </div>
+                      </div>
+                    </label>
+                  </li>
+                </ul>
+                <!-- <div class="mt-20 flex justify-center">
+                  <a class="inline-flex cursor-pointer rounded-lg bg-blue-500 py-3 px-5 text-lg text-white" href="#">Still have questions?</a>
+                </div> -->
+              </div>              
+          </section>
+
+          <!--------FOOTER------------>
+          <footer>
+            <div class="mt-8 bg-[#E89011] pt-9">
+                <div class="mx-auto w-full max-w-[1166px] px-4 xl:px-0">
+                  <div class="flex flex-col justify-between sm:px-[18px] md:flex-row md:px-10">
+                    <div class="md:w-[316px]">
+                      <p class="text-[18px] font-medium text-white">
+                      <h3 class="text-white font-extrabold">
+                        "Your Site"
+                      </h3>
+                      </p>
+                      <p class="mt-[18px] text-[15px] font-normal text-white/[80%]">bardetechnologies@gmail.com <br> 07016058871</p>
+                      <div class="mt-[18px] flex gap-4">
+                        <a class="hover:scale-110" target="_blank" href="#">
+                            <i class="fa-brands fa-square-facebook"></i>
+                        </a>
+
+                        <a class="hover:scale-110" target="_blank" href="#">
+                            <i class="fa-brands fa-square-twitter"></i>
+                        </a>
+                          
+                        <a class="hover:scale-110" target="_blank" href="#">
+                            <i class="fa-brands fa-square-instagram"></i>
+                        </a>
+                          
+                        <a class="hover:scale-110" target="_blank" href="#">
+                            <i class="fa-brands fa-square-youtube"></i>
+                        </a>
+                      </div>
+                    </div>
+
+                    <!-- <div class="md:w-[316px]">
+                      <div class="mt-[23px] flex">
+                        <div class="flex h-[38px] w-[38px] items-center justify-center rounded-[75%]">
+                          <i class="fa-solid fa-phone"></i>
+                        </div>
+                        <div class="ml-[18px]">
+                          <a href="tel:+911800123444" class="font-Inter text-[14px] font-medium text-white">+91 1800123444</a>
+                          <p class="font-Inter text-[12px] font-medium text-white">Support Number</p>
+                        </div>
+                      </div>
+                      <div class="mt-[23px] flex">
+                        <div class="flex h-[38px] w-[38px] items-center justify-center rounded-[75%]">
+                          <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <div class="ml-[18px]">
+                          <a href="mailto:help@lorem.com" class="font-Inter text-[14px] font-medium text-[#fff]">help@lorem.com</a>
+                          <p class="font-Inter text-[12px] font-medium text-[#fff]">Support Email</p>
+                        </div>
+                      </div>
+                      <div class="mt-[23px] flex">
+                        <div class="flex h-[38px] w-[38px] items-center justify-center rounded-[75%]">
+                          <i class="fa-solid fa-location-pin"></i>
+                        </div>
+                        <div class="ml-[18px]">
+                          <a href="mailto:help@lorem.com" class="font-Inter text-[14px] font-medium text-[#fff]">Sub Nerul, Mumbia,
+                            India, 123456</a>
+                          <p class="font-Inter text-[12px] font-medium text-white">Address</p>
+                        </div>
+                      </div>
+                    </div> -->
+
+                    <div class="mt-6 flex w-full flex-col justify-between text-white sm:flex-row md:mt-0 md:max-w-[341px]">
+                        <div class="">
+                          <p class="text-deutziawhite font-inter text-[18px] font-medium leading-normal">Useful Links</p>
+                          <ul>
+                            <li class="mt-[15px]"><a
+                                class="text-deutziawhite hover:text-deutziawhite/80 font-inter text-[15px] font-normal hover:font-semibold"
+                                href="#hero">Home</a></li>
+                            <li class="mt-[15px]"><a
+                                class="text-deutziawhite hover:text-deutziawhite/80 font-inter text-[15px] font-normal hover:font-semibold"
+                                href="#about">About Us</a></li>
+                            <li class="mt-[15px]"><a
+                                class="text-deutziawhite hover:text-deutziawhite/80 font-inter text-[15px] font-normal hover:font-semibold"
+                                href="#service">Services</a></li>
+                            <li class="mt-[15px]"><a
+                                class="text-deutziawhite hover:text-deutziawhite/80 font-inter text-[15px] font-normal hover:font-semibold"
+                                href="#pricing">Pricing</a></li>
+                            <li class="mt-[15px]"><a
+                                class="text-deutziawhite hover:text-deutziawhite/80 font-inter text-[15px] font-normal hover:font-semibold"
+                                href="/terms-and-conditions">Contact Us</a></li>
+                          </ul>
+                        </div>
+                      </div>
+
+
+                    <div class="mt-6 flex w-full flex-col justify-between text-white sm:flex-row md:mt-0 md:max-w-[341px]">
+                      <div class="">
+                        <p class="text-deutziawhite font-inter text-[18px] font-medium leading-normal">Services</p>
+                        <ul>
+                          <li class="mt-[15px]"><a
+                              class="text-deutziawhite hover:text-deutziawhite/80 font-inter text-[15px] font-normal hover:font-semibold"
+                              href="/">Buy Data</a></li>
+                          <li class="mt-[15px]"><a
+                              class="text-deutziawhite hover:text-deutziawhite/80 font-inter text-[15px] font-normal hover:font-semibold"
+                              href="/our-tutors">Airtim TopUp</a></li>
+                          <li class="mt-[15px]"><a
+                              class="text-deutziawhite hover:text-deutziawhite/80 font-inter text-[15px] font-normal hover:font-semibold"
+                              href="/become-a-tutor">Cable Subscription</a></li>
+                          <li class="mt-[15px]"><a
+                              class="text-deutziawhite hover:text-deutziawhite/80 font-inter text-[15px] font-normal hover:font-semibold"
+                              href="/plans-and-pricing">Bulk SMS</a></li>
+                          <li class="mt-[15px]"><a
+                              class="text-deutziawhite hover:text-deutziawhite/80 font-inter text-[15px] font-normal hover:font-semibold"
+                              href="/terms-and-conditions">Airtime to Cash</a></li>
+                        </ul>
+                      </div>
+
+
+                      <div class="mt-6 flex flex-col gap-4 sm:mt-0">
+                        <p class="text-deutziawhite font-inter text-[18px] font-medium">Download the app</p>
+                        <div class="flex gap-4 sm:flex-col">
+                          <a target="_blank"
+                            href="#"><img alt="facebook icon" loading="lazy" width="168" height="50" decoding="async" data-nimg="1" style="color:transparent" src="/Assets/Andr-btn.png" /></a><a
+                            target="_blank"
+                            href="#"><img alt="facebook icon" loading="lazy" width="168" height="50" decoding="async" data-nimg="1" style="color:transparent" src="/Assets/IOS-btn.png" /></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <hr class="mt-[30px] text-white" />
+                  <div class="flex items-center justify-center pb-8 pt-[9px] md:py-8">
+                    <p class="text-[10px] font-normal text-white md:text-[12px]">
+                      © Copyright 2024, All Rights Reserved "Your Site"
+                    </p>
+                  </div>
+                </div>
+              </div>
+          </footer>
+    </main>
+</body>
